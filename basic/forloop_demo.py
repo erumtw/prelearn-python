@@ -1,5 +1,3 @@
-from audioop import mul
-
 
 def loop():
     for i in range(10): # for(i = 0; i < 10; i++)
@@ -24,7 +22,7 @@ def loop_str(s):
 def mult_table(from_n, to_n):
     for i in range(from_n, to_n + 1):
         for j in range(1, 13):
-            print(f"{i} x {j} = {i*j:.1f}")
+            print(f"{i} x {j} = {i*j:.1f}") # another form of format print
         print("-" * 12)
 
 # loop()

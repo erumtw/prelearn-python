@@ -11,7 +11,7 @@ def sum_input():
         n = int(input("Enter number: "))
     return total
 
-# repeat until know as do .... while
+# repeat until as know as do...while
 def sum_input2():
     total = 0
     while True: 
