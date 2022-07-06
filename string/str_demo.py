@@ -25,3 +25,6 @@ def print_str(s: str):
 
 # slice()
 print_str("thaowan")
+print()
+s = "123456789abcdefghijklmnop"
+print(s[5:10])
