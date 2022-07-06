@@ -2,7 +2,6 @@
 
 import random
 
-
 def join_demo():
     station = ("HUA", "SAM", "SIL", "LUM", "KHO", "SIR",
                 "SUK", "PET", "RAM", "CUL", "HUI", "SUT",
