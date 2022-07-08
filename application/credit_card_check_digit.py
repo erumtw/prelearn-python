@@ -25,7 +25,9 @@ def print_digit(digit):
 
             
 if __name__ == '__main__':
-    card = "4597 7692 1332 987"
+    
+    card = input("Enter first 15 digit card number: ")
+    # card = "9900 6631 0236 129"
     card_digit = get_card_digit(card)
     two_one = [2,1]*7 + [2]
     cal1 = [i*j for i,j in zip(card_digit, two_one)]
@@ -42,3 +44,6 @@ if __name__ == '__main__':
     print_digit(cal2)
     print("\nSum =", sum(cal2))
     print("Check Digit =", check_digit)
+    print("Card Number = ", end='')
+    [print(i, end="") for i in card_digit]
+    print(check_digit)
