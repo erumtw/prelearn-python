@@ -1,6 +1,6 @@
-# s = 'rainbow'
+s = 'rainbow'
 # print('rain' in s)
-# print('rain' not in s)
+print('rain' not in s)
 
 def slice():
     fname = 'ammari'
