@@ -1,0 +1,4 @@
+"menu"	"s"	"m"	"l"
+"mocha     "	30	40	50
+"latte     "	40	50	65
+"espresso  "	50	55	70
